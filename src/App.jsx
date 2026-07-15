@@ -91,7 +91,6 @@ function App() {
         }>
           <div className = "App">
             <Routes>
-              <Route path="/nkum" element={<Home />}/>
               <Route path="/" element={<Home />}/>
               <Route path="/new" element={<New />}/>
               <Route path="/diary/:id" element={<Diary />}/>
